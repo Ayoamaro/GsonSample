@@ -22,9 +22,7 @@ Ejemplo de lectura de la entrada estándar:
 Todos los datos son obligatorios, así como será necesario verificar que los datos introducimos son del tipo indicado.
 
 
-2. Con la instancia de la clase Persona conteniendo el nombre, apellidos y edad introducidos,
-  convertir (marshall) el objeto Java en JSON utilizando la librería Gson de Google, mostrar el
-  resultado en la consola y terminar.
+2. Con la instancia de la clase Persona conteniendo el nombre, apellidos y edad introducidos, convertir (marshall) el objeto Java en JSON utilizando la librería Gson de Google, mostrar el resultado en la consola y terminar.
 
 Ejemplo de conversión de un objeto Java en formato JSON:
 
