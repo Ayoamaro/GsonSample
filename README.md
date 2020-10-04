@@ -1,33 +1,32 @@
 # GsonSample
 
 1. La aplicación recogerá los siguientes datos desde la consola:
-
   - **Nombre (String)**
   - **Apellidos (String)**
   - **Edad (Integer)**
 
-  Y los guardará en la clase Persona.
+Y los guardará en la clase Persona.
 
   ```
   Persona p = new Persona();
   // TODO recoger datos desde la consola y almacenarlos en "p"
   ```
 
-  Ejemplo de lectura de la entrada estándar:
+Ejemplo de lectura de la entrada estándar:
 
   ```
   Scanner scanner = new Scanner(System.in);
   String line = scanner.nextLine();
   ```
 
-  Todos los datos son obligatorios, así como será necesario verificar que los datos introducimos son del tipo indicado.
+Todos los datos son obligatorios, así como será necesario verificar que los datos introducimos son del tipo indicado.
 
 
 2. Con la instancia de la clase Persona conteniendo el nombre, apellidos y edad introducidos,
   convertir (marshall) el objeto Java en JSON utilizando la librería Gson de Google, mostrar el
   resultado en la consola y terminar.
 
-  Ejemplo de conversión de un objeto Java en formato JSON:
+Ejemplo de conversión de un objeto Java en formato JSON:
 
   ```
   Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -35,7 +34,7 @@
   System.out.println(json);
   ```
 
-  Ejemplo de salida en formato JSON generada por la aplicación:
+Ejemplo de salida en formato JSON generada por la aplicación:
 
   ```
   {
